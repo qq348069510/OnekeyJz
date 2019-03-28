@@ -1,0 +1,433 @@
+.securecode .code_p {
+  text-align: center;
+}
+
+.securecode .code_info {
+  border: none;
+  background: none;
+  border-bottom: 1px dashed #ccc;
+  color: #666;
+  width: 70%;
+  margin-left: 10px;
+}
+
+.securecode .code_last {
+  margin-bottom: 0;
+}
+
+.securecode .code_cid {
+  font-size: 12px;
+  color: #AAA;
+  padding-left: 4px;
+}
+
+.securecode .code_line {
+  font-size: 13px;
+  font-family: Monaco, Courier, monospace;
+}
+
+.code_name {
+  float:left;
+}
+
+.code_type {
+  color: white;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.code_func {
+  float: right;
+}
+
+.code_funca {
+  color: #CCC;
+  font-size: 13px;
+}
+
+.code_funca:hover {
+  color: #999;
+}
+
+.code_func_text {
+  padding-left: 3px;
+}
+
+.securecode .code_hide, .securecode:hover .code_mask {
+  display: none;
+}
+
+.securecode:hover .code_hide {
+  display: inline;
+}
+
+.securecode .progress {
+  height: 21px;
+  line-height: 22px;
+  margin: 0 -15px 7px;
+  font-size: 12px;
+  color: #999;
+  border-radius: 0;
+  text-align: left;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.securecode .code_expire {
+  position: absolute;
+  color: #222;
+  font-size: 12px;
+  margin-left: 15px;
+  z-index: 1;
+}
+
+.securecode:hover .code_expire {
+  color: #333;
+}
+
+.codecard-gift.codecard:hover .code_line {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.codecard-gift .code_last {
+  margin-bottom: 3px !important;
+}
+
+.codecard p {
+  font-size: 12px;
+  color: white;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.codecard a {
+  font-size: 12px;
+  color: white;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.codecard a:hover {
+  color: white;
+}
+
+.codecard .code_title {
+  margin: 3px 8px;
+}
+
+.codecard .code_no {
+  text-align: center;
+  margin: 48px 0;
+}
+
+.codecard .code_name {
+  margin: 3px 0;
+}
+
+.codecard .code_name .code_cid {
+  color: white;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.codecard .code_funca {
+}
+
+.codecard .code_funca .glyphicon {
+  top: 2px;
+}
+
+.codecard .code_last {
+  margin: 0 10px;
+}
+.codecard .code_last input::selection {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.codecard .code_p {
+  text-align: center;
+  margin: 18px 0 21px;
+}
+
+.codecard .code_cid {
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+.codecard .code_line {
+  font-size: 13px;
+  padding: 5px 8px;
+  background: #CCC;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  transition: background .2s;
+  font-family: Monaco, Courier, monospace;
+}
+
+.codecard:hover .code_line {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.codecard .code_info {
+  border: none;
+  background: none;
+  font-size: 12px;
+  /*border-bottom: 1px dotted white;
+  border-bottom-color: rgba(255, 255, 255, 0.2);*/
+  width: 100%;
+  color: white;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.codecard .code_info::-webkit-input-placeholder { color:rgba(255, 255, 255, 0.5); }
+.codecard .code_info::-moz-placeholder { color:rgba(255, 255, 255, 0.5); } /* firefox 19+ */
+.codecard .code_info:-ms-input-placeholder { color:rgba(255, 255, 255, 0.5); } /* ie */
+.codecard .code_info:-moz-placeholder { color:rgba(255, 255, 255, 0.5); }
+
+.codecard .codecard-bottom {
+  background: #CCC;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 10px 15px;
+}
+
+.codecard .progress {
+  margin: 4px 0 6px;
+  height: 4px;
+  border-radius: 4px;
+  background: #EEE;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+
+.codecard .progress-bar {
+  border-radius: 4px;
+  background: white;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: none;
+}
+
+.codecard .code_expire {
+  text-align: right;
+  margin-bottom: 0;
+  padding-right: 2px;
+}
+
+.codecard .code_hide, .codecard:hover .code_mask {
+  display: none;
+}
+
+.codecard:hover .code_hide {
+  display: inline;
+}
+
+/* 新卡密页面 */
+.codecard {
+  background: #CCC;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.codecard-expire { opacity: 0.5; }
+.codecard-ban { opacity: 0.5; }
+
+.codecard-body {
+  padding: 10px 10px 7px;
+}
+
+.codecard-gift {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  cursor: default;
+}
+
+@media (min-width: 992px) {
+  .codecard-gift {
+    margin: 120px 60px 30px;
+    transform: scale(1.1);
+    transition: transform ease-out .15s;
+  }
+  .codecard-gift:hover {
+    transform: scale(1.15);
+  }
+}
+
+@media (min-width: 1200px) {
+  .codecard-gift {
+    margin: 120px 12px 30px;
+  }
+}
+
+.codecard-gift.codecard:hover .code_line {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.codecard-gift .code_last {
+  margin-bottom: 3px !important;
+}
+
+.codecard p {
+  font-size: 12px;
+  color: white;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.codecard a {
+  font-size: 12px;
+  color: white;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.codecard a:hover {
+  color: white;
+}
+
+.codecard .code_title {
+  margin: 3px 8px;
+}
+
+.codecard .code_no {
+  text-align: center;
+  margin: 48px 0;
+}
+
+.codecard .code_name {
+  margin: 3px 0;
+}
+
+.codecard .code_name .code_cid {
+  color: white;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.codecard .code_funca {
+}
+
+.codecard .code_funca .glyphicon {
+  top: 2px;
+}
+
+.codecard .code_last {
+  margin: 0 10px;
+}
+.codecard .code_last input::selection {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.codecard .code_p {
+  text-align: center;
+  margin: 18px 0 21px;
+}
+
+.codecard .code_cid {
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+.codecard .code_line {
+  font-size: 13px;
+  padding: 5px 8px;
+  background: #CCC;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  transition: background .2s;
+  font-family: Monaco, Courier, monospace;
+}
+
+.codecard:hover .code_line {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.codecard .code_info {
+  border: none;
+  background: none;
+  font-size: 12px;
+  /*border-bottom: 1px dotted white;
+  border-bottom-color: rgba(255, 255, 255, 0.2);*/
+  width: 100%;
+  color: white;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.codecard .code_info::-webkit-input-placeholder { color:rgba(255, 255, 255, 0.5); }
+.codecard .code_info::-moz-placeholder { color:rgba(255, 255, 255, 0.5); } /* firefox 19+ */
+.codecard .code_info:-ms-input-placeholder { color:rgba(255, 255, 255, 0.5); } /* ie */
+.codecard .code_info:-moz-placeholder { color:rgba(255, 255, 255, 0.5); }
+
+.codecard .codecard-bottom {
+  background: #CCC;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 10px 15px;
+}
+
+.codecard .progress {
+  margin: 4px 0 6px;
+  height: 4px;
+  border-radius: 4px;
+  background: #EEE;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+
+.codecard .progress-bar {
+  border-radius: 4px;
+  background: white;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: none;
+}
+
+.codecard .code_expire {
+  text-align: right;
+  margin-bottom: 0;
+  padding-right: 2px;
+}
+
+.codecard .code_hide, .codecard:hover .code_mask {
+  display: none;
+}
+
+.codecard:hover .code_hide {
+  display: inline;
+}
+
+.gift-detail {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+
+.gift-operation {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .gift-operation {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+}
+
+.gift-operation .btn {
+  background: #2fa4e7;
+  border: 1px solid transparent;
+  text-shadow: none;
+}
+
+.gift-operation .btn:hover {
+  border: 1px solid #1684c2;
+}
+
+.usercenter {
+  margin-top: 15px;
+}
+
+.usercenter-right {
+  margin-top: 5px;
+}
+
+.codecard-0 {
+	background: #666;
+}
+	
+.codecard-4 {
+	background: #6ec884;
+}

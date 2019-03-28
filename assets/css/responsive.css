@@ -1,0 +1,730 @@
+@media screen and (max-width: 1446px) {
+.header .header_menu ul li a {
+	padding: 0px 12px;
+}
+.platform_advantage_brief {
+	padding-left: 30px;
+}
+.consulting_type {
+	padding: 20px 0;
+}
+.consulting_type ul {
+	margin: 15px 0 10px 0;
+}
+.consulting_type ul li a {
+	height: 30px;
+	line-height: 30px;
+}
+.consulting_box .problem {
+	padding-top: 15px;
+}
+.consulting_box .problem ul {
+	padding: 10px 0 0 30px;
+}
+.canvasdiv {
+	padding-top: 150px;
+}
+}
+ @media screen and (max-width: 1199px) {
+.mpage {
+	width: 100%;
+	height: 888px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+.canvasdiv {
+	display: none !important;
+}
+.banner {
+	background: #3a3f51;
+	/*background-image: url(../img/bg-new.png);*/
+        background-image: linear-gradient(to bottom, #47476b,#47476b);
+	height: 500px;
+}
+.banner_title {
+	padding-top: 150px;
+}
+.banner .owl-prev {
+	margin-left: 20px;
+}
+.banner .owl-next {
+	margin-right: 20px;
+}
+.all_button:hover {
+	background: #fff;
+	color: #3a3f51;
+}
+.header {
+	height: 60px;
+	line-height: 60px;
+}
+.header .login {
+	display: none;
+}
+.header .mobileMenuBtn_shad {
+	width: 100%;
+	height: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	background: rgba(0, 0, 0, 0.7);
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+}
+.header .mobileMenuBtn_shad.active {
+	height: 100%;
+}
+.header .header_menu {
+	width: 200px;
+	background: #3a3f51;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	top: 0;
+	right: -200px;
+	transition: 0.6s all;
+	-webkit-transition: 0.6s all;
+}
+.header .header_menu.active {
+	right: 0;
+}
+.header .header_menu ul li {
+	display: block;
+}
+.header .header_menu ul li a {
+	padding: 0;
+	border: none;
+	border-bottom: solid 1px #5d6069;
+	line-height: normal;
+	padding: 12px 0;
+}
+.header .header_menu ul li a:hover,  .header .header_menu ul li a.active {
+	border: none;
+	border-bottom: solid 1px #5d6069;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.header .md-show {
+	display: block;
+}
+.platform_advantage_img img {
+	width: 50px;
+}
+.platform_advantage_brief {
+	padding-left: 20px;
+}
+.platform_advantage_brief .brief_title {
+	font-size: 16px;
+}
+.platform_advantage_brief .brief_text {
+	font-size: 13px;
+}
+.platform_advantage_content {
+	margin-left: -50px;
+}
+.platform_advantage_list {
+	margin: 0 0 50px 50px;
+}
+.marketing_advantage_brief {
+	padding: 0 25px;
+}
+.aside,  .consulting_box {
+	display: none;
+}
+.header .mobileMenuBtn {
+	display: block;
+}
+.case_show_brief {
+	margin-left: 10px;
+}
+.case_show_brief_text {
+	margin: 15px 10px 20px 0;
+	line-height: 1.8;
+}
+.support_type_list {
+	border: none;
+	color: #605c81;
+	background: #fff;
+	margin-left: 50px;
+	border-radius: 3px;
+        border: solid 1px #F2F2F2;
+}
+.support_type_list:before {
+	display: none;
+}
+.support_type_list:hover {
+	border: none;
+	background: #3DA6F7;
+}
+.template_show_list {
+	width: 90%;
+	padding: 50px 0;
+}
+.introduce_list_brief {
+	margin: 0 20px 10px 0;
+}
+.introduce_list_text {
+	font-size: 12px;
+}
+.cloud_platform_list {
+	padding: 40px 20px;
+}
+.industry_list_left {
+	padding-right: 25px;
+}
+.industry_list_rigth {
+	padding-left: 25px;
+}
+.industry_list_title {
+	margin-bottom: 15px;
+}
+.industry_list_brief {
+	margin-bottom: 20px;
+}
+.advantage_project_content {
+	margin: 50px 0 0 -10px;
+}
+.advantage_project_list {
+	overflow: hidden;
+	margin: 0 0 100px 10px;
+}
+.proxy_process_line {
+	max-width: 900px;
+}
+.proxy_process_content {
+	margin: -55px 0 0 -30px;
+}
+.proxy_process_list {
+	margin-left: 30px;
+}
+.proxy_process_list:hover .proxy_process_list_bottom .text {
+	color: #939393;
+}
+}
+ @media screen and (max-width: 967px) {
+.mpage {
+	width: 1500px;
+	height: 888px;
+	top: 50%;
+	left: 50%;
+	margin-top: -444px;
+	margin-left: -750px;
+}
+.waves_box {
+	display: none;
+}
+.index_product {
+	padding: 60px 0;
+}
+.all_title1,  .all_title2 {
+	margin-bottom: 30px;
+}
+.all_title1 .title,  .all_title2 .title {
+	font-size: 25px;
+}
+.platform_advantage {
+	padding: 60px 0;
+}
+.marketing_advantage {
+	padding: 60px 0;
+}
+.marketing_advantage_content {
+	margin-left: -10px;
+}
+.marketing_advantage_list {
+	margin: 0 0 10px 10px;
+}
+.marketing_advantage_brief {
+	padding: 0 15px;
+	top: 15%;
+}
+.partners {
+	padding: 60px 0;
+}
+.partners_content_list {
+	margin: 10px 10px;
+}
+.join_in {
+	padding: 60px 0;
+}
+.news_center {
+	padding: 60px 0;
+}
+.news_center_content {
+	margin-left: -30px;
+}
+.news_center_list {
+	margin-left: 30px;
+}
+.footer_content {
+	padding: 60px 0;
+}
+.footer .bottom_logo {
+	display: none;
+}
+.footer_content {
+	margin-left: -20px;
+}
+.footer_list {
+	margin-left: 14px;
+}
+.quick_navigation {
+	padding-left: 0;
+	text-align: center;
+}
+.quick_navigation {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #2D2B2B;
+}
+.quick_navigation ul {
+	text-align: center;
+}
+.quick_navigation ul li {
+	display: inline-block;
+	margin: 0 15px;
+}
+.z_banner {
+	padding: 120px 0;
+}
+.case_show_brief_text {
+	margin: 10px 0 20px 0;
+	line-height: 1.5;
+	font-size: 12px;
+}
+.support_type {
+	margin: 30px 0;
+}
+.support_type_content {
+	margin-left: -30px;
+}
+.support_type_list {
+	margin-left: 30px;
+}
+.technical_support_box ul li a .text {
+	width: 75%;
+}
+.technical_support_box ul li a .time {
+	width: 25%;
+}
+.technical_support_box_z_header .title {
+	font-size: 18px;
+}
+.technical_support_box_z_info_box {
+	margin: 20px 0;
+	padding: 20px 0;
+}
+.template_search_select select {
+	width: 200px;
+}
+.template_show_list_text ul li {
+	margin-right: 20px;
+}
+.introduce {
+	padding: 60px 0;
+}
+.introduce_list_brief {
+	margin: 0 0 15px 0;
+}
+.introduce_list_img {
+	text-align: center;
+}
+.cloud_platform {
+	padding: 60px 0;
+}
+.cloud_platform_content {
+	overflow: hidden;
+	margin: 50px 0 50px -20px;
+}
+.cloud_platform_list {
+	margin-left: 20px;
+}
+.industry {
+	padding: 60px 0;
+}
+.industry_content {
+	margin-top: 20px;
+}
+.industry_list_left {
+	padding-right: 0;
+	text-align: center;
+}
+.industry_list_rigth {
+	padding-left: 0;
+	text-align: center;
+	margin-top: 50px;
+}
+.industry_list_brief {
+	margin-bottom: 10px;
+}
+.advantage_project {
+	padding-top: 60px;
+}
+.advantage_project_content {
+	margin: 50px 0 0 -30px;
+}
+.advantage_project_list {
+	margin: 0 0 50px 30px;
+}
+.marketing_support {
+	padding: 60px 0;
+}
+.marketing_support_list_img {
+	display: none;
+}
+.proxy_process {
+	padding: 60px 0;
+}
+.proxy_process_content {
+	margin: -55px 0 0 -20px;
+}
+.proxy_process_list {
+	margin-left: 20px;
+}
+.proxy_process_list_bottom {
+	min-height: 80px;
+}
+.proxy_process_list_bottom .title {
+	font-size: 14px;
+}
+.proxy_process_list_bottom .text {
+	font-size: 12px;
+}
+}
+ @media screen and (max-width: 767px) {
+.banner {
+	height: 500px;
+	background-position: center -380px;
+}
+.banner .owl-pagination {
+	margin-top: 100px;
+}
+.banner_title {
+	font-size: 30px;
+	padding-top: 180px;
+}
+.index_product {
+	padding: 40px 0;
+}
+.platform_advantage {
+	padding: 40px 0;
+}
+.platform_advantage_content {
+	margin-left: -25px;
+}
+.platform_advantage_list {
+	margin: 0 0 30px 25px;
+}
+.platform_advantage_brief .brief_title {
+	font-size: 14px;
+}
+.platform_advantage_brief .brief_text {
+	font-size: 12px;
+}
+.marketing_advantage {
+	padding: 40px 0;
+}
+.marketing_advantage_list {
+	margin: 0 0 14px 10px;
+	background-color: #fff;
+}
+.marketing_advantage_content .span3:first-child .marketing_advantage_list {
+	background-color: #fff;
+	text-align: center;
+}
+.marketing_advantage_content .span3:first-child img {
+	width: 84%;
+}
+.marketing_advantage_brief {
+	padding: 0 35px;
+	top: 30%;
+}
+.partners {
+	padding: 40px 0;
+}
+.partners_content_list {
+	margin: 10px 10px;
+}
+.join_in {
+	padding: 40px 0;
+}
+.join_in_title {
+	font-size: 30px;
+}
+.news_center_content {
+	margin-left: -10px;
+}
+.news_center_list {
+	margin-left: 10px;
+}
+.news_center_list_title {
+	margin: 15px 0px;
+}
+.news_center_content ul li a .text {
+	width: 75%;
+}
+.news_center_content ul li a .time {
+	width: 25%;
+}
+.footer_content {
+	padding: 40px 0;
+}
+.quick_navigation ul li {
+	margin: 0 10px;
+}
+.platform_advantage_bg {
+	display: none;
+}
+.z_banner {
+	padding: 80px 0;
+}
+.case_show_list {
+	padding-top: 30px;
+}
+.case_show_brief {
+	margin: 0;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.support_type_content {
+	margin-left: -15px;
+}
+.support_type_list {
+	margin-left: 15px;
+}
+.technical_support_type {
+	margin-bottom: 30px;
+}
+.technical_support_type ul li:before {
+	display: none;
+}
+.technical_support_type ul li a {
+	padding: 10px 0;
+	text-indent: 0;
+	text-align: center;
+}
+.technical_support_type ul li.active a:hover {
+	color: #fff;
+}
+.technical_support_type ul li a:hover {
+	border-bottom: solid 1px #F0F0F0;
+	color: #333;
+}
+.technical_support {
+	padding: 30px 0;
+}
+.technical_support_type .title {
+	cursor: pointer;
+}
+.technical_support_type .title span {
+	display: block;
+}
+.technical_support_type ul {
+	display: none;
+}
+.technical_support_box ul li a:before {
+	display: none;
+}
+.technical_support_box ul li a:hover {
+	color: #333;
+}
+.template_search {
+	margin: 30px 0;
+}
+.template_search_select {
+	margin: 0 15px;
+}
+.template_search_select select {
+	width: 150px;
+}
+.case_show_more {
+	padding: 30px 0;
+}
+.know_more {
+	padding: 30px 0;
+}
+.introduce {
+	padding: 40px 0;
+}
+.introduce_list_text {
+	font-size: 14px;
+}
+.cloud_platform {
+	padding: 40px 0;
+}
+.cloud_platform_content {
+	overflow: hidden;
+	margin: 40px 0 40px -10px;
+}
+.cloud_platform_list {
+	padding: 30px 10px;
+	margin-left: 10px;
+}
+.cloud_platform_solution .title {
+	font-size: 20px;
+}
+.industry {
+	padding: 40px 0;
+}
+.industry_content {
+	margin-top: 0;
+}
+.advantage_project {
+	padding-top: 40px;
+}
+.advantage_project_content {
+	margin: 40px 0px 0px -30px;
+}
+.marketing_support {
+	padding: 40px 0;
+}
+.marketing_support_list_brief {
+	margin-top: 20px;
+}
+.proxy_process_line {
+	display: none;
+}
+.proxy_process_content {
+	margin-top: 0;
+}
+.proxy_process_list_middle {
+	display: none;
+}
+.proxy_process_list {
+	margin: 0 0 30px 20px;
+}
+.proxy_process_list:hover .proxy_process_list_top {
+	color: #3ba1f2;
+}
+.proxy_process_list_top:before {
+	display: none;
+}
+.proxy_process_list_bottom .title {
+	font-size: 16px;
+}
+.response_shows .response_shows_box .thumb {
+	bottom: -20%;
+}
+}
+ @media screen and (max-width: 739px) {
+.marketing_advantage_content .span3:first-child img {
+	width: 88%;
+}
+}
+ @media screen and (max-width: 479px) {
+.marketing_advantage_content .span3:first-child img {
+	width: 99%;
+}
+.response_shows .response_shows_box {
+	padding: 0 0 50px;
+}
+.platform_advantage_img {
+	width: 40%;
+	text-align: center;
+}
+.marketing_advantage_content {
+	margin-left: -8px;
+}
+.marketing_advantage_list {
+	margin: 0 0 10px 8px;
+}
+.marketing_advantage_brief {
+	padding: 0 15px;
+	top: 12%;
+}
+.partners_content_list img {
+	width: 150px;
+}
+.join_in_title {
+	font-size: 24px;
+}
+.join_in_text {
+	font-size: 14px;
+	margin: 15px 0 30px 0;
+}
+.news_center_list_img {
+	margin-top: 20px;
+}
+.footer {
+	background: #0F0F0F none;
+}
+.quick_navigation_title,  .footer_link_title,  .footer_cotact_title {
+	text-align: center;
+}
+.footer_link {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.case_show_brief_text {
+	margin: 10px 5px 20px 5px;
+	font-size: 13px;
+}
+.case_show_content {
+	margin: 30px 0;
+}
+.support_type {
+	margin: 30px 0px 15px 0;
+}
+.support_type_list {
+	margin-bottom: 15px;
+}
+.technical_support_type .title {
+	text-indent: 15px;
+}
+.technical_support_box {
+	padding: 15px;
+}
+.technical_support_box ul li a {
+	padding: 7px 0;
+}
+.technical_support_box ul li a .time {
+	font-size: 12px;
+}
+.technical_support_page ul li a {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	margin-right: 10px;
+}
+.technical_support_box_z {
+	padding: 15px;
+}
+.technical_support_page_z {
+	padding: 0 15px 30px 15px;
+}
+.template_search_select {
+	display: block;
+}
+.template_search_select {
+	margin-bottom: 10px;
+}
+.template_search_select select {
+	width: 100%;
+}
+.template_show_content:before {
+	display: none;
+}
+.cloud_platform_list {
+	margin-bottom: 10px;
+}
+.advantage_project {
+	background: #4EA7EB none;
+}
+.advantage_project_list {
+	margin: 0 0 30px 30px;
+}
+.marketing_support_list_brief {
+	text-align: center;
+}
+.proxy_process {
+	padding: 40px 0;
+}
+.response_shows .response_shows_box .thumb {
+	bottom: -25%;
+}
+}
